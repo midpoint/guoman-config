@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "hongguo_web": {
+    "origin": "https://hongguoduanju.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "referer": "https://hongguoduanju.com/",
+    "search_path": "/api/search/result",
+    "detail_path": "/detail",
+    "player_path": "/player",
+    "category_path": "/category",
+    "rank_path": "/rank"
+  },
+  "hongguo_app": {
+    "play_hosts": [
+      "api5-normal-sinfonlineb.fqnovel.com",
+      "api5-normal-hl.fqnovel.com"
+    ],
+    "play_path": "/novel/player/multi_video_model/v1/",
+    "video_tab_path": "/reading/bookapi/video_tab/multi_video_model/v1/",
+    "register_url": "https://log5-applog-lf.fqnovel.com/service/2/device_register/?tt_data=a&cronet_version=8d40f833_2026-03-03&ttnet_version=4.2.243.31-douyin&use_store_region_cookie=1",
+    "version_code": "73932",
+    "version_name": "7.3.9.32",
+    "manifest_version_code": "73932",
+    "update_version_code": "73932",
+    "pv_player": "73932",
+    "player_user_agent": "com.phoenix.read/71532 (Linux; U; Android 9; SM-N9860; Build/PQ3A.190705.10241111;tt-ok/3.12.13.20)",
+    "device": {
+      "ac": "wifi",
+      "channel": "update_64",
+      "aid": "8662",
+      "app_name": "novelread",
+      "version_code": "71332",
+      "version_name": "7.1.3.32",
+      "device_platform": "android",
+      "os": "android",
+      "ssmix": "a",
+      "device_type": "25053RT47C",
+      "device_brand": "Redmi",
+      "language": "zh",
+      "os_api": "36",
+      "os_version": "16",
+      "manifest_version_code": "71332",
+      "resolution": "1280*2772",
+      "dpi": "520",
+      "update_version_code": "71332",
+      "host_abi": "arm64-v8a",
+      "dragon_device_type": "phone",
+      "pv_player": "71332",
+      "compliance_status": "0",
+      "need_personal_recommend": "1",
+      "player_so_load": "1",
+      "is_android_pad_screen": "0"
+    },
+    "sign": {
+      "sdk_int": 67503104,
+      "medusa_message_key": "f7e85ffad7d7dc3bd62ac87057cf6118",
+      "medusa_key": "f1593376766ea98d34f31b057a9d5be4",
+      "medusa_iv": "1fe109a4125283f418de9e051a969e12",
+      "medusa_version_prefix": "03000000f7e85ffad7d7dc3bd62ac87057cf6118",
+      "sign_key": "8ebdfa3806ecc5cee79423e6029ed82540bc2218bb7eaef71cb691f7aa8aa2f5",
+      "device_level": 1,
+      "force_codec_fallback": true
+    }
+  },
+  "hongguo_rank": {
+    "hosts": [
+      "api5-normal-sinfonlineb.fqnovel.com",
+      "api5-normal-hl.fqnovel.com"
+    ],
+    "path": "/reading/bookapi/bookmall/cell/change/v",
+    "cell_id": "7470092475068071998",
+    "tab_type": "26",
+    "client_req_type": "2",
+    "client_template": "2",
+    "screen_width_px": "1350",
+    "selected_items": "comic_series_rank",
+    "hot_board": "comic_series_hot_play",
+    "new_board": "comic_series_new_rank",
+    "monthly_pages": 3,
+    "user_agent": "com.phoenix.read/71532 (Linux; U; Android 9; SM-N9860; Build/PQ3A.190705.10241111;tt-ok/3.12.13.20)"
+  },
+  "backup_sources": {
+    "xifan": {
+      "api": "https://xifan-api-cn.youlishipin.com",
+      "enabled": true
+    },
+    "hema": {
+      "api": "https://www.kuaikaw.cn",
+      "enabled": true
+    }
+  },
+  "playback": {
+    "default_quality": "720p",
+    "max_cached_episodes": 2,
+    "prefetch_next": true,
+    "prefetch_wifi_only": false,
+    "download_timeout_seconds": 120,
+    "decrypt_buffer_bytes": 4194304
+  },
+  "cache_ttl_seconds": {
+    "catalog": 120,
+    "rank": 120,
+    "search": 60,
+    "detail": 600,
+    "episodes": 600,
+    "playback_model": 30
+  },
+  "features": {
+    "backup_search": true,
+    "backup_detail": true,
+    "backup_playback": true,
+    "health_page": true
+  },
+  "health": {
+    "sample_keyword": "漫剧",
+    "sample_vid": "7698309376561400856"
+  },
+  "recommendations": [],
+  "feedback": {
+    "webhook_url": "",
+    "enabled": true
+  },
+  "update": {
+    "enabled": true,
+    "version_code": 2,
+    "version_name": "1.0.1",
+    "apk_url": "",
+    "channels": [
+      {
+        "name": "Gitee 国内",
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.1/app-debug.apk"
+      }
+    ],
+    "sha256": "93ae5679012c6e9a7cbf442bceb9cc771b3d98762a8238959fd0caace775a6d8",
+    "changelog": "新增国内 Gitee 更新通道，支持多通道自动回退；使用反馈接入飞书；优化播放器方向与季数检索；新增熄屏播放。",
+    "force": false
+  }
+}
