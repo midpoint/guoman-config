@@ -115,7 +115,10 @@
     "sample_keyword": "漫剧",
     "sample_vid": "7698309376561400856"
   },
-  "recommendations": [],
+  "recommendations": [
+    "万妖图录传",
+    "持械入宋"
+  ],
   "feedback": {
     "webhook_url": "",
     "enabled": true
