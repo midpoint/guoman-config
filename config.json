@@ -122,17 +122,17 @@
   },
   "update": {
     "enabled": true,
-    "version_code": 2,
-    "version_name": "1.0.1",
+    "version_code": 6,
+    "version_name": "1.0.5",
     "apk_url": "",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.1/app-debug.apk"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.5/app-debug.apk"
       }
     ],
-    "sha256": "93ae5679012c6e9a7cbf442bceb9cc771b3d98762a8238959fd0caace775a6d8",
-    "changelog": "新增国内 Gitee 更新通道，支持多通道自动回退；使用反馈接入飞书；优化播放器方向与季数检索；新增熄屏播放。",
+    "sha256": "1d8bcc37c277ee42e049ced036a58632ee38c7da112c2144e612f2ca3fe56123",
+    "changelog": "播放界面顶部新增常驻当前时间，跟随系统的 12/24 小时制设置。",
     "force": false
   }
 }
