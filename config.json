@@ -122,17 +122,17 @@
   },
   "update": {
     "enabled": true,
-    "version_code": 6,
-    "version_name": "1.0.5",
+    "version_code": 7,
+    "version_name": "1.0.6",
     "apk_url": "",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.5/app-debug.apk"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.6/app-debug.apk"
       }
     ],
-    "sha256": "1d8bcc37c277ee42e049ced036a58632ee38c7da112c2144e612f2ca3fe56123",
-    "changelog": "播放界面顶部新增常驻当前时间，跟随系统的 12/24 小时制设置。",
+    "sha256": "d29b6678ad756d4d72b1ef0ce279f47b3e794472bd93d93c6d057f66c9259f10",
+    "changelog": "支持耳机线控单击暂停/播放；时间仅在点击屏幕显示控制栏时出现，全屏观看时隐藏",
     "force": false
   }
 }
