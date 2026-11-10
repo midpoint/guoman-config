@@ -125,17 +125,17 @@
   },
   "update": {
     "enabled": true,
-    "version_code": 10,
-    "version_name": "1.0.9",
+    "version_code": 11,
+    "version_name": "1.0.10",
     "apk_url": "",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.9/app-debug.apk"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.10/app-debug.apk"
       }
     ],
-    "sha256": "cca6853c18fbe47baca969fbb90221a2ab67b2edd976eca3fc9849761b0e0394",
-    "changelog": "慢网下本集播完后下一集准备失败会自动重试（断点续传，最多 7 次），避免停止播放",
+    "sha256": "3954bf9665359ca1681bc6a794a8a017d330cc32d9afd29df244d5041e6b3036",
+    "changelog": "修复自动切换到下一季时闪退的问题（MediaSession 会话 ID 冲突）",
     "force": false
   }
 }
