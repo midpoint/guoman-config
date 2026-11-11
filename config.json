@@ -17,6 +17,10 @@
     ],
     "play_path": "/novel/player/multi_video_model/v1/",
     "video_tab_path": "/reading/bookapi/video_tab/multi_video_model/v1/",
+    "legacy_player_user_agent": "com.phoenix.read/71332 (Linux; U; Android 16; zh_CN; 25053RT47C; Build/BP2A.250605.031.A3)",
+    "shortplay_host": "api3-normal-sinfonlinea.fqnovel.com",
+    "shortplay_path": "/novel/player/video_model/v1/",
+    "shortplay_user_agent": "com.dragon.read",
     "register_url": "https://log5-applog-lf.fqnovel.com/service/2/device_register/?tt_data=a&cronet_version=8d40f833_2026-03-03&ttnet_version=4.2.243.31-douyin&use_store_region_cookie=1",
     "version_code": "73932",
     "version_name": "7.3.9.32",
@@ -125,17 +129,17 @@
   },
   "update": {
     "enabled": true,
-    "version_code": 13,
-    "version_name": "1.0.12",
+    "version_code": 14,
+    "version_name": "1.0.13",
     "apk_url": "",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.12/app-debug.apk"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.13/app-debug.apk"
       }
     ],
-    "sha256": "0902a8a4216df370965062f7a70284819ad4ecc9f2cdb037fa2f4de2ab9b093b",
-    "changelog": "熄屏播放时仅解码音频并禁用视频轨，降低熄屏播放功耗；亮屏后自动恢复视频画面",
+    "sha256": "302e78a8a8452c634a8c92a9a15ba9d5114b0f9ef95e27e5024e27c2ab9da8a1",
+    "changelog": "修复红果播放接口返回空响应导致的「来源暂不可用」：新增旧版短剧/多视频播放接口回退与 x-ladon / x-argus 签名，恢复 360p–1080p 播放；解析支持 Base64 播放地址，并限制空响应时的身份轮换与重试次数。",
     "force": false
   }
 }
