@@ -141,5 +141,19 @@
     "sha256": "8034bf3bc400362f93823bed50e193866cf6c4753184602e5f8f2e3eab3a063d",
     "changelog": "修复部分剧集取流为空：新增 v5 短剧模型通道，bytevc2 独占的剧集自动改取 HEVC 720p；失败时保留真实原因（无兼容编码 / 空响应）",
     "force": false
+  },
+  "desktop_update": {
+    "enabled": true,
+    "version": "1.0.21",
+    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.21-win64/Guoman-1.0.21-win64-portable.zip",
+    "sha256": "ff447c134fc51a710538121b2a879022971d922370825a7f5838982928827e06",
+    "changelog": "新增自动更新：启动时检查新版本，确认后自动下载并替换程序目录，收藏、历史与缓存不受影响；设置页可手动检查更新。",
+    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.21-win64",
+    "channels": [
+      {
+        "name": "Gitee 国内",
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.21-win64/Guoman-1.0.21-win64-portable.zip"
+      }
+    ]
   }
 }
