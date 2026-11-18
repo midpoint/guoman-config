@@ -144,15 +144,15 @@
   },
   "desktop_update": {
     "enabled": true,
-    "version": "1.0.22",
-    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.22-win64/Guoman-1.0.22-win64-portable.zip",
-    "sha256": "2b4e72eb62ae8a2029ddeeb0d3538b2d741719986258e41ff9727cb77337a02b",
-    "changelog": "点窗口关闭按钮改为最小化到右下角系统托盘，程序继续运行；双击托盘图标恢复窗口，托盘菜单可退出。",
-    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.22-win64",
+    "version": "1.0.23",
+    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.23-win64/Guoman-1.0.23-win64-portable.zip",
+    "sha256": "37fc972a8ab33c28e6dfdd106601f6cbb7233367b6fbed493b3a61cb93572407",
+    "changelog": "修复托盘右键菜单中文乱码：改用 Windows 原生菜单渲染，托盘提示气泡同步修复。",
+    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.23-win64",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.22-win64/Guoman-1.0.22-win64-portable.zip"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.23-win64/Guoman-1.0.23-win64-portable.zip"
       }
     ]
   }
