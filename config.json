@@ -144,15 +144,15 @@
   },
   "desktop_update": {
     "enabled": true,
-    "version": "1.0.25",
-    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.25-win64/Guoman-1.0.25-win64-portable.zip",
-    "sha256": "6467b07ccb8364488443dd493689c136fae30849f49dec532d00053fa61767a3",
-    "changelog": "修复托盘菜单左侧空白；修复首次打开“继续观看”进度偶发播放失败；自动更新不再残留空白终端窗口",
-    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.25-win64",
+    "version": "1.0.26",
+    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.26-win64/Guoman-1.0.26-win64-portable.zip",
+    "sha256": "ae2a16da1bbe21bfa7e4875fc2d36d52f15fd4f8fb69077c2c57876e7bded85e",
+    "changelog": "修复红果取流：改用 v5 签名 GET video_tab 取播放模型（上游 player/v1 返回空响应）；同一匿名身份可连续播放多集",
+    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.26-win64",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.25-win64/Guoman-1.0.25-win64-portable.zip"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.26-win64/Guoman-1.0.26-win64-portable.zip"
       }
     ]
   }
