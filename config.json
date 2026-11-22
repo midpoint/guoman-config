@@ -129,17 +129,17 @@
   },
   "update": {
     "enabled": true,
-    "version_code": 21,
-    "version_name": "1.0.20",
+    "version_code": 22,
+    "version_name": "1.0.21",
     "apk_url": "",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.20/app-debug.apk"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.21/app-debug.apk"
       }
     ],
-    "sha256": "fa75c4a0aef1682cacbba16abe9ed938156108b20a71f9846bac460f6cf537a4",
-    "changelog": "修复红果取流：上游 player/v1 返回空响应，改用 v5 签名 GET video_tab 取播放模型；跳过不可解码的 bytevc2，优先 1080P HEVC",
+    "sha256": "ada38b016149d5d3dafbb90daa42abc64432021d1fc5675a42e9838bfdeaceb0",
+    "changelog": "优化红果取流速度：v5 video_tab 空响应时轮换身份快速重试，跳过已失效通道的固定等待；修正个别机型 HEVC 解码器误判，非免费分集提示更明确",
     "force": false
   },
   "desktop_update": {
