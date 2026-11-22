@@ -129,17 +129,17 @@
   },
   "update": {
     "enabled": true,
-    "version_code": 22,
-    "version_name": "1.0.21",
+    "version_code": 23,
+    "version_name": "1.0.22",
     "apk_url": "",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.21/app-debug.apk"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.22/app-debug.apk"
       }
     ],
-    "sha256": "ada38b016149d5d3dafbb90daa42abc64432021d1fc5675a42e9838bfdeaceb0",
-    "changelog": "优化红果取流速度：v5 video_tab 空响应时轮换身份快速重试，跳过已失效通道的固定等待；修正个别机型 HEVC 解码器误判，非免费分集提示更明确",
+    "sha256": "83e71cc8c335ece18ccb058cae8d2d9f919e280b4b8e368e72ab29e859e0de60",
+    "changelog": "限制果漫同时只能运行一个实例：重复启动会回到已打开的应用，不再新开窗口",
     "force": false
   },
   "desktop_update": {
