@@ -129,17 +129,17 @@
   },
   "update": {
     "enabled": true,
-    "version_code": 24,
-    "version_name": "1.0.23",
+    "version_code": 25,
+    "version_name": "1.0.24",
     "apk_url": "",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.23/app-debug.apk"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.24/app-debug.apk"
       }
     ],
-    "sha256": "afeaa4ac7d84bbf7b0e80862ccadf389fd0f598e72dc355c0b4420daea04cf04",
-    "changelog": "修复观看历史不更新：详情页的继续观看改为实时刷新；备源播放也会写入历史；避免设备时间回拨导致新记录被当作旧记录；退出播放页时不再丢失最后一次进度",
+    "sha256": "bd1d8aef7190fe401c312f8d84450d20d2cc3fd7fc64c2e16468539afe8a1b65",
+    "changelog": "修复红果官方取流接口返回空响应：v5 签名补齐设备安全令牌与完整 APK 头，注册后自动激活匿名设备，video_tab 回传 klink_egdi。",
     "force": false
   },
   "desktop_update": {
