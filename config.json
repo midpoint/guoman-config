@@ -144,15 +144,15 @@
   },
   "desktop_update": {
     "enabled": true,
-    "version": "1.0.28",
-    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.28-win64/Guoman-1.0.28-win64-portable.zip",
-    "sha256": "b402163712aa26878bee400a98ffcda203ad1ac0cce9314a820bb7b749742dbe",
-    "changelog": "限制果漫同时只能运行一个实例：重复双击图标会激活已运行的窗口（从系统托盘恢复），不再新开第二个播放器",
-    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.28-win64",
+    "version": "1.0.29",
+    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.29-win64/Guoman-1.0.29-win64-portable.zip",
+    "sha256": "2fd75d6871e3e59707c7b9146c14d3110bc10e409962bb28c00c0ee1712dd88e",
+    "changelog": "修复观看历史不更新：多个副本同时运行时会互相覆盖历史文件，现在写入前会合并磁盘记录、打开首页/历史页时自动刷新；修复取消收藏后列表不更新的问题",
+    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.29-win64",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.28-win64/Guoman-1.0.28-win64-portable.zip"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.29-win64/Guoman-1.0.29-win64-portable.zip"
       }
     ]
   }
