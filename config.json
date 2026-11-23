@@ -144,15 +144,15 @@
   },
   "desktop_update": {
     "enabled": true,
-    "version": "1.0.27",
-    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.27-win64/Guoman-1.0.27-win64-portable.zip",
-    "sha256": "601c9b29542e6a1055c61903574837dd2229a60ecd89bf462b4ad0c07adde32d",
-    "changelog": "优化红果取流速度：video_tab 空响应时轮换身份快速重试，跳过失效通道的固定等待；修正个别机型 HEVC 解码器误判",
-    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.27-win64",
+    "version": "1.0.28",
+    "zip_url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.28-win64/Guoman-1.0.28-win64-portable.zip",
+    "sha256": "b402163712aa26878bee400a98ffcda203ad1ac0cce9314a820bb7b749742dbe",
+    "changelog": "限制果漫同时只能运行一个实例：重复双击图标会激活已运行的窗口（从系统托盘恢复），不再新开第二个播放器",
+    "page_url": "https://gitee.com/midpoint/guoman/releases/tag/v1.0.28-win64",
     "channels": [
       {
         "name": "Gitee 国内",
-        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.27-win64/Guoman-1.0.27-win64-portable.zip"
+        "url": "https://gitee.com/midpoint/guoman/releases/download/v1.0.28-win64/Guoman-1.0.28-win64-portable.zip"
       }
     ]
   }
